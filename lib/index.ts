@@ -44,7 +44,7 @@ const generate = function(length: number = 4, customSet?: Array<string>): string
 		.map(upperCaseFirstLetter)
 	
 	// shuffle the array
-	return shuffle(formattedResult)
+	return shuffle(formattedResult).join('')
 }
 
 export default generate

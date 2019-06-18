@@ -2373,7 +2373,7 @@ var generate = function (length, customSet) {
         .map(noSpecialChar)
         .map(upperCaseFirstLetter);
     // shuffle the array
-    return shuffle(formattedResult);
+    return shuffle(formattedResult).join('');
 };
 
 module.exports = generate;

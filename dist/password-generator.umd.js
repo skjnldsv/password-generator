@@ -2377,7 +2377,7 @@
 	        .map(noSpecialChar)
 	        .map(upperCaseFirstLetter);
 	    // shuffle the array
-	    return shuffle(formattedResult);
+	    return shuffle(formattedResult).join('');
 	};
 
 	return generate;
