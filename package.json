@@ -1,47 +1,51 @@
 {
-  "name": "password-generator",
-  "version": "1.0.0",
-  "description": "Generate an easy to remember password",
-  "main": "dist/password-generator.cjs.js",
-  "module": "dist/password-generator.esm.js",
-  "browser": "dist/password-generator.umd.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/skjnldsv/password-generator.git"
-  },
-  "keywords": [
-    "password",
-    "generator",
-    "easy",
-    "remember"
-  ],
-  "author": "John Molakvoæ <skjnldsv@protonmail.com> (skjnldsv)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/skjnldsv/password-generator/issues"
-  },
-  "homepage": "https://github.com/skjnldsv/password-generator#readme",
-  "dependencies": {
-    "d3-array": "^2.2.0",
-    "random-int": "^2.0.0"
-  },
-  "devDependencies": {
-    "@types/ms": "^0.7.30",
-    "rollup": "^1.0.0",
-    "rollup-plugin-commonjs": "^9.2.0",
-    "rollup-plugin-multi-entry": "^2.1.0",
-    "rollup-plugin-node-resolve": "^4.2.4",
-    "rollup-plugin-typescript": "^1.0.0",
-    "ts-node": "^7.0.1",
-    "tslib": "^1.9.3",
-    "typescript": "^3.2.2"
-  }
+	"name": "password-generator",
+	"version": "1.0.0",
+	"description": "Generate an easy to remember password",
+	"main": "dist/password-generator.cjs.js",
+	"module": "dist/password-generator.esm.js",
+	"browser": "dist/password-generator.umd.js",
+	"directories": {
+		"lib": "lib"
+	},
+	"scripts": {
+		"build": "rollup -c",
+		"dev": "rollup -c -w",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/skjnldsv/password-generator.git"
+	},
+	"keywords": [
+		"password",
+		"generator",
+		"easy",
+		"remember"
+	],
+	"author": "John Molakvoæ <skjnldsv@protonmail.com> (skjnldsv)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/skjnldsv/password-generator/issues"
+	},
+	"homepage": "https://github.com/skjnldsv/password-generator#readme",
+	"dependencies": {
+		"d3-array": "^2.2.0",
+		"random-int": "^2.0.0"
+	},
+	"devDependencies": {
+		"@types/ms": "^0.7.30",
+		"rollup": "^1.0.0",
+		"rollup-plugin-commonjs": "^9.2.0",
+		"rollup-plugin-multi-entry": "^2.1.0",
+		"rollup-plugin-node-resolve": "^4.2.4",
+		"rollup-plugin-typescript": "^1.0.0",
+		"ts-node": "^7.0.1",
+		"tslib": "^1.9.3",
+		"typescript": "^3.2.2"
+	},
+	"engines": {
+		"node": "^14.0.0",
+		"npm": "^7.0.0"
+	}
 }
